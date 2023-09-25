@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-top: 10%;
+    color: #0072BB;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h2 {
+    color: #6987C9;
+}
+
+main {
+    max-width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forums {
+    flex: 1;
+}
+
+.forum-category {
+    margin-bottom: 20px;
+}
+
+.forum-category h3 {
+    font-size: 1.2rem;
+}
+
+.forum-topics {
+    list-style: none;
+    padding: 0;
+}
+
+.forum-topics li {
+    margin: 5px 0;
+}
+
+.chat {
+    flex: 1;
+    width: 100%;
+}
+
+.chat-content {
+    flex: 1;
+}
+
+.chat-messages {
+    height: 50vh;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.chat-input {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #0072BB;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6987C9;
+}
+
+.chat-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-list {
+    padding: 20px;
+}
+
+.user-list h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.users {
+    list-style: none;
+    padding: 0;
+}
+
+.users li {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #333;
+}

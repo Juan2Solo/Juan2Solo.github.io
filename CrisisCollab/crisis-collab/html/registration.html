@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/registration.css">
+</head>
+
+<body>
+  <header id="non-auth-header-placeholder"></header>
+  <div id="container">
+    <h2>Registration</h2>
+    <form class="form-container">
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" required>
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" required>
+
+      <label for="phone">Phone Number (optional):</label>
+      <input type="text" id="phone" name="phone">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button id="redirect-button" href="/html/community-form.html" type="button"><a
+          href="/html/community-form.html">Register</a></button></button>
+      <p class="login-link">Already have an account? <a href="logIn.html" class="log-in-thing">Log In</a>!</p>
+    </form>
+  </div>
+  <script src="/js/include-header.js"></script>
+  <script src="/js/registration.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Login Page</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/logIn.css">
+
+
+<body>
+    <header id="non-auth-header-placeholder"> </header>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Welcome Back</h1>
+            <p>Login to your account</p>
+            <form action="login.php" method="POST">
+                <div class="input-container">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Your username" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Your password" required>
+                </div>
+                <button id="redirect-button" href="/html/community-form.html" type="submit"><a
+                        href="/html/community-form.html">Login</a></button>
+            </form>
+            <div class="bottom-links">
+                <p class="forgot-password"><a href="#">Forgot password?</a></p>
+                <p class="signup-link">Don't have an account? <a href="registration.html">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/include-header.js"></script>
+</body>
+<script src="/js/registration.js"></script>
+
+</html>

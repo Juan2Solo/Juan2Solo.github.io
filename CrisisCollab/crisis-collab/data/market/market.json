@@ -1,0 +1,32 @@
+{
+    "resources": [
+        {
+            "id": 1,
+            "resource-type": "food",
+            "description": "Canned food and bottled water",
+            "contact-info": "john@example.com",
+            "image-url": "../data/market/food.jpg"
+        },
+        {
+            "id": 2,
+            "resource-type": "shelter",
+            "description": "Tents and sleeping bags",
+            "contact-info": "susan@example.com",
+            "image-url": "../data/market/shelter.jpg"
+        },
+        {
+            "id": 3,
+            "resource-type": "water",
+            "description": "Cases of bottled water",
+            "contact-info": "mike@example.com",
+            "image-url": "../data/market/water.png"
+        },
+        {
+            "id": 4,
+            "resource-type": "clothing",
+            "description": "Warm clothing and blankets",
+            "contact-info": "lisa@example.com",
+            "image-url": "../data/market/clothing.jpg"
+        }
+    ]
+}

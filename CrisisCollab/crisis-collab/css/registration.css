@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/earth2.jpeg);
+    background-size: 100%;
+}
+
+#container {
+    max-width: 400px;
+    margin: 100px auto 0 auto;
+    padding: 10px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #0072BB;
+}
+
+label {
+    color: #0072BB;
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    background-color: #0072BB;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 57px;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    background-color: #6987C9;
+}
+
+.form-container {
+    padding-right: 20px;
+}
+
+.login-link {
+    margin-top: 10px;
+    text-align: center;
+
+    .log-in-thing {
+        color: #0072BB;
+    }
+
+}

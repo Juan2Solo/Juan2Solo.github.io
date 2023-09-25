@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+
+    color: #0072BB;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+
+#mapa-stoppa {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#mapa-stoppa table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#mapa-stoppa th,
+#mapa-stoppa td {
+    text-align: center;
+    padding: 10px;
+}
+
+#mapa-stoppa th {
+    background-color: #333333;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #ddd;
+}
+
+#mapa-stoppa th,
+#mapa-stoppa td {
+    border: 1px solid #ddd;
+}
+
+#mapa-stoppa td {
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
+#mapa-stoppa td:hover {
+    background-color: #f2f2f2;
+}
+
+#mapa-stoppa td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#mapa-stoppa td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#mapa-stoppa td.today {
+    background-color: #ffc107;
+    color: #fff;
+    font-weight: bold;
+}
+
+.event-marker {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 2px;
+}
+
+#mapa-stoppa td.events {
+    position: relative;
+}
+
+#mapa-stoppa td.events .event-marker {
+    z-index: 1;
+}
+
+img {
+    max-width: 50px;
+    height: auto;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    float: center;
+}
+
+#sidebar {
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+#sidebar h2 {
+    margin-top: 0;
+}
+
+.draggable-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    user-select: element;
+}
+
+.dropped-item {
+    position: absolute;
+}
+
+#date-info {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+#date-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#selected-date-info {
+    font-size: 16px;
+    color: #333;
+}
+
+#mapa-stoppa td:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}

@@ -1,0 +1,94 @@
+body {
+    background-color: #0072BB;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("/assets/images/Earth.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-container {
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.login-box {
+    padding: 20px;
+}
+
+h1 {
+    color: #0072BB;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+p {
+    color: #0072BB;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+p {
+    color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0072BB;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #0072BB;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6987C9;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #0072BB;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #0072BB;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

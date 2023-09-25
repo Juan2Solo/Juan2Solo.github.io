@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market - Crisis Collaboration</title>
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/market.css">
+</head>
+
+<body>
+    <header id="header-placeholder"></header>
+
+    <h1>Crisis Resource Sharing Marketplace</h1>
+    <main>
+
+        <section id="resource-form">
+            <h2>Share a Resource</h2>
+            <form action="#" method="POST">
+                <label for="resource-type">Resource Type:</label>
+                <select id="resource-type" name="resource-type">
+                    <option value="food">Food</option>
+                    <option value="water">Water</option>
+                    <option value="shelter">Shelter</option>
+                    <option value="clothing">Clothing</option>
+                </select>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" cols="50"
+                    placeholder="Provide details about the resource"></textarea>
+
+                <label for="attachment">Attachment (Optional):</label>
+                <input type="file" id="attachment" name="attachment">
+
+                <button type="submit">Share Resource</button>
+            </form>
+        </section>
+        <h2>Available Resources</h2>
+        <section id="resource-list">
+        </section>
+        <script src="../js/market.js"></script>
+        <script src="../js/include-header.js"></script>
+    </main>
+
+</body>
+
+</html>
