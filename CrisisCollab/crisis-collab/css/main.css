@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url("/assets/images/WilfireEffect.jpg");
+    background-image: url("/CrisisCollab/crisis-collab/assets/images/WilfireEffect.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ body {
 }
 
 body {
-    background-image: url("/assets/images/WilfireEffect.jpg");
+    background-image: url("/CrisisCollab/crisis-collab/assets/images/WilfireEffect.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
